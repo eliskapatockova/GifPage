@@ -60,6 +60,7 @@ $("#addAnimal").on("click", function(event) {
     $("#myButtons").empty();
     for (var i = 0; i < topics.length; i++) {
       var a = $('<button class="btn btn-info">');
+      a.attr("type", "button");
       a.attr("id", "animal");
       a.attr("data-search", topics[i]);
       a.text(topics[i]);
