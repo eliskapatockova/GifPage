@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GifPage</title>
+    <meta charset="utf-8">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="wholeThing">
+
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <h1>All of your favorite animal gifs...</h1>
+        </div>
+        <!--end of column -->
+        <div class="col-lg-1"></div>
+    </div>
+    <!--end of row -->
+
+
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <div class="container">
+                <button type="button" class="btn btn-info" id="animal" data-search="cat">cat</button>
+                <button type="button" class="btn btn-info" id="animal" data-search="dog">dog</button>
+                <button type="button" class="btn btn-info" id="animal" data-search="penguin">penguin</button>
+                <button type="button" class="btn btn-info" id="animal" data-search="seal">seal</button>
+                <button type="button" class="btn btn-info" id="animal" data-search="giraffe">giraffe</button>
+                <button type="button" class="btn btn-info" id="animal" data-search="whale">whale</button>
+
+                <div id="myButtons"></div>
+            </div>
+            <!--end of container -->
+        </div>
+        <!--end of column -->
+        <div class="col-lg-1"></div>
+    </div>
+    <!--end of row -->
+
+
+
+    <div class="row">
+        <div class="col-lg-12">
+
+            <form class="form-inline" id="Search">
+                <div class="form-group">
+                    <label for="animalInput">Search for an Animal</label>
+                    <input type="text" id="animalInput">
+                </div>
+                <!-- Button triggers show to be added -->
+                <input id="addAnimal" class="btn btn-success" type="submit" value="submit">
+            </form>
+
+
+        </div>
+
+    </div>
+    <!--end of row -->
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="gifArea"></div>
+        </div>
+        <!--end of container -->
+    </div> <!-- end of row  -->
+
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>
